@@ -16,8 +16,8 @@ void _div(stack_t **stack, unsigned int line_number)
 		exit(EXIT_FAILURE);
 	}
 
-	divis = (*stack);
-	divdnd = (*stack)->next;
+	divis = *stack;
+	divdnd = divis->next;
 
 	if (divdnd->n == 0)
 	{
