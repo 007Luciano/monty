@@ -18,6 +18,8 @@ void read_line(FILE *file, stack_t **stack)
 	{"swap", swap},
 	{"add", add},
 	{"nop", nop},
+	{"sub", sub},
+	{"div", _div},
 	{NULL, NULL}
 	};
 
